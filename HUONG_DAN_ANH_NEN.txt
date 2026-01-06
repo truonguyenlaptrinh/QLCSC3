@@ -1,0 +1,21 @@
+HƯỚNG DẪN THÊM ẢNH NỀN
+
+Để thêm ảnh nền cho ứng dụng:
+
+1. Đổi tên ảnh của bạn thành một trong các tên sau:
+   - background.jpg
+   - background.png
+   - background.jpeg
+
+2. Đặt file ảnh vào thư mục dự án (cùng thư mục với file app.py)
+
+3. Chạy lại ứng dụng:
+   streamlit run app.py
+
+4. Ảnh nền sẽ tự động được áp dụng!
+
+Lưu ý:
+- Độ trong suốt của ảnh nền là 0.15 (có thể điều chỉnh trong file app.py)
+- Kích thước ảnh nền được tự động điều chỉnh để phù hợp với màn hình
+- Nếu muốn thay đổi độ trong suốt, tìm dòng "opacity=0.15" trong file app.py và thay đổi giá trị
+
